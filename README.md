@@ -29,13 +29,22 @@
    git clone [https://github.com/harshitahegde/DA.git](https://github.com/harshitahegde/DA.git)
    cd SAFEGO_AI
 2.**Setup Environment**
+```bash
    python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 3.**Install Dependencies**
+```
 pip install -r requirements.txt
+```
 4.**Initialize database**
+```
 python init_db.py
+```
 5.**Run SafeGO AI website**
+```
 python app.py
+```
 6.**Run Project**
+```
 python detection.py
